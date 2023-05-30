@@ -20,8 +20,7 @@ To install both  Node.js and the packet manager for node.js, npm, run:
  to verify installation od Node.js we will run the command:
  
      `node -v && npm -v` 
-     
- this command would display the version of node.js if installed.
+This command would display the version of node.js if installed.
 
 ### Application Code Setup
 Create a new directory, "Todo" and change into the directory using the following commands:
