@@ -14,4 +14,8 @@ To do this we will use the code:
 
          `curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -`
          
+ to verify installation od Node.js we will run the command
+     `node -v` 
+ this command would display the version of node.js if installed.
+         
 
