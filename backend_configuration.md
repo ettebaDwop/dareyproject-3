@@ -10,12 +10,20 @@ You are likely to see the screen below:
 
 Lets get the location of Node.js software from Ubuntu repositories.
 To do this we will use the code:
-          `Install node.js`  to install Node.js software
 
-         `curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -`
-         
- to verify installation od Node.js we will run the command
-     `node -v` 
+     `curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -`
+
+To install both  Node.js and the packet manager for node.js, npm, run:
+
+    ` sudo apt-get install -y nodejs`
+     
+ to verify installation od Node.js we will run the command:
+ 
+     `node -v && npm -v` 
+     
  this command would display the version of node.js if installed.
-         
 
+### Application Code Setup
+Create a new directory for your To-Do project:        
+
+![Screenshot (175)](https://github.com/ettebaDwop/dareyproject-3/assets/7973831/fc441bbd-ba66-4f76-8b3a-f4099462604b)
