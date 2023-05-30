@@ -28,6 +28,10 @@ Create a new directory, "Todo" and change into the directory using the following
 
         `mkdir Todo && cd Todo`
         
-    Running the command `npm init` gives the result below.
+    Running the command 
+    
+        `npm init` 
+    
+    gives the result below.
 
 ![Screenshot (175)](https://github.com/ettebaDwop/dareyproject-3/assets/7973831/fc441bbd-ba66-4f76-8b3a-f4099462604b)
