@@ -65,11 +65,29 @@ touch index.js
 ```
 Install the dotenv module
 
-`npm install dotenv`
+` npm install dotenv`
 
 Open the index.js file
 
-`vim index.js`
+` vim index.js`
 
+node index.js
+
+![Screenshot (242)](https://github.com/ettebaDwop/dareyproject-3/assets/7973831/3920188e-21fd-41e4-b22a-2b83587bc2a3)
+
+The next step is to open up port 5000 on the AWS EC2 instance
+
+
+#### The routes directory
+
+To provide the functionality required for our To-Do application, we need to implement three actions:
+
+Create a new task: This action will involve sending a POST request to a specific endpoint to add a new task to the list.
+
+Display a list of all tasks: This action will require a GET request to retrieve and display all the existing tasks.
+
+Delete a completed task: To remove a completed task from the list, we will use a DELETE request sent to the appropriate endpoint.
+
+For each of these actions, we will create routes that define the necessary endpoints for our To-Do application. These routes will handle the incoming HTTP requests and execute the corresponding actions. Let's begin by creating a folder called "routes" to organize our route files
 ### Models
 ### Mongodb database
