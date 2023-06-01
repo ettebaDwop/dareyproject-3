@@ -197,6 +197,7 @@ monospace;
 
 ` npm run dev`
 
+![Screenshot (187)](https://github.com/ettebaDwop/dareyproject-3/assets/7973831/7034e6b1-9035-4bab-9e18-34955c2395fb)
 
 
 
