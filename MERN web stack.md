@@ -77,6 +77,11 @@ node index.js
 
 The next step is to open up port 5000 on the AWS EC2 instance
 
+ On the browser this is what the result shou;s look like
+ 
+![Screenshot (179)](https://github.com/ettebaDwop/dareyproject-3/assets/7973831/b9ecefdb-bb01-4b30-b959-d163c2a1afa1)
+
+
 
 #### The routes directory
 
