@@ -146,6 +146,18 @@ Create a new directory, "models", change into the models directory and create a 
 
  Also, update the routes api.js file to look like this:
  
- 
+ ![Screenshot (248)](https://github.com/ettebaDwop/dareyproject-3/assets/7973831/526e875f-c579-4588-a021-a0ffc2c0c91b)
+
 
 ### Mongodb database
+This step involves the creation of a MongoDB Database from mLab
+
+```
+touch .env
+vi .env
+```
+To access the database run:
+
+`DB = 'mongodb+srv://<username>:<password>@<network-address>/<dbname>?retryWrites=true&w=majority'`
+
+
