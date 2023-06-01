@@ -1,5 +1,26 @@
+# The MERN Web Stack Implementation
+
+The MERN stack is a popular web development stack that consists of MongoDB, Express.js, React.js, and Node.js. This project documents a step-by-step instructions on implementing the MERN stack on Amazon AWS using an Ubuntu Server. The MERN stack allows you to build scalable and efficient web applications. This project will attempt to create a Simple to-do application on MERN  web stack.
+
+The implementation will involve the follwowing steps:
+
+#### Step 1
+- Backend configuration
+- Installing expressjs
+- Models
+- Mongodb database
+#### Step 2
+- Frontend creation
+- Frontend creation (continued)
+
+
+
+
 # Step 1
-Before we start, we will have to prepare our Ubuntu  environment and get all libraries and programs updated and upgraded. The command we will run are:
+### Backend Configuration
+* Create a new EC2 instance on the Amazon AWS Console
+* Prepare our Ubuntu  environment and get all libraries and programs updated and upgraded.
+The command we will run are:
 
        `sudo apt update && sudo apt upgrade`
 
@@ -22,7 +43,7 @@ To install both  Node.js and the packet manager for node.js, npm, run:
      `node -v && npm -v` 
 This command would display the version of node.js if installed.
 
-### Application Code Setup
+#### Application Code Setup
 Create a new directory, "Todo" and change into the directory using the following commands:
 
         `mkdir Todo && cd Todo`
