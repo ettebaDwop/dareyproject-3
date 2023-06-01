@@ -97,5 +97,32 @@ To provide the functionality required for our To-Do application, we need to impl
 
 For each of these actions, we will create routes that define the necessary endpoints for our To-Do application. These routes will handle the incoming HTTP requests and execute the corresponding actions. Let's begin by creating a folder called "routes" to organize our route files
 
+`mkdir routes && cd routes`
+
+ Create a file api.js and open the file with the command:
+ 
+ `touch api.js && vim api.js`
+ 
+Paste the following code in the api.js file
+
+```
+const express = require ('express');
+const router = express.Router();
+
+router.get('/todos', (req, res, next) => {
+
+});
+
+router.post('/todos', (req, res, next) => {
+
+});
+
+router.delete('/todos/:id', (req, res, next) => {
+
+})
+
+module.exports = router;
+```
+
 ### Models
 ### Mongodb database
