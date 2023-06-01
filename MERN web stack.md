@@ -164,5 +164,11 @@ To access the database run:
 
 `DB = 'mongodb+srv://<username>:<password>@<network-address>/<dbname>?retryWrites=true&w=majority'`
 
-node index.js
+![Screenshot (252)](https://github.com/ettebaDwop/dareyproject-3/assets/7973831/63db82a4-4653-46d4-bd6b-eb90abd7bddb)
+
+To connect to the database run:
+
+`node index.js`
+
+
 
