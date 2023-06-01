@@ -170,5 +170,9 @@ To connect to the database run:
 
 `node index.js`
 
+![Screenshot (257)](https://github.com/ettebaDwop/dareyproject-3/assets/7973831/a0be7a3e-99c0-4092-b592-74e565bba0c0)
+
+### Testing Backend Code without Frontend using RESTful API
+To test the backend we will use Postman
 
 
