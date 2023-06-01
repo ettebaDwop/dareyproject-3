@@ -77,6 +77,8 @@ node index.js
 
 The next step is to open up port 5000 on the AWS EC2 instance
 
+![Screenshot (244)](https://github.com/ettebaDwop/dareyproject-3/assets/7973831/23ebd2f0-8cb2-4fd1-8822-f4c17bb61527)
+
  On the browser this is what the result shou;s look like
  
 ![Screenshot (179)](https://github.com/ettebaDwop/dareyproject-3/assets/7973831/b9ecefdb-bb01-4b30-b959-d163c2a1afa1)
@@ -87,12 +89,13 @@ The next step is to open up port 5000 on the AWS EC2 instance
 
 To provide the functionality required for our To-Do application, we need to implement three actions:
 
-Create a new task: This action will involve sending a POST request to a specific endpoint to add a new task to the list.
+- Create a new task: This action will involve sending a POST request to a specific endpoint to add a new task to the list.
 
-Display a list of all tasks: This action will require a GET request to retrieve and display all the existing tasks.
+- Display a list of all tasks: This action will require a GET request to retrieve and display all the existing tasks.
 
-Delete a completed task: To remove a completed task from the list, we will use a DELETE request sent to the appropriate endpoint.
+- Delete a completed task: To remove a completed task from the list, we will use a DELETE request sent to the appropriate endpoint.
 
 For each of these actions, we will create routes that define the necessary endpoints for our To-Do application. These routes will handle the incoming HTTP requests and execute the corresponding actions. Let's begin by creating a folder called "routes" to organize our route files
+
 ### Models
 ### Mongodb database
