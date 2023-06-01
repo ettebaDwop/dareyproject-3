@@ -125,4 +125,22 @@ module.exports = router;
 ```
 
 ### Models
+
+Now we will incorporate MongoDB, a NoSQL database, into our application. To achieve this, we need to establish a model.
+
+A model lies at the core of JavaScript-based applications, driving their interactivity and functionality.
+
+In addition, we will utilize models to define the database schema. This step is crucial as it allows us to specify the fields stored in each MongoDB document. 
+
+Essentially, the schema serves as a blueprint for constructing the database structure, including optional data fields that may not require storage in the database. These fields are referred to as virtual properties.
+
+To create both a schema and a model, we will install Mongoose, a Node.js package designed to simplify working with MongoDB.
+
+` npm install mongoose`
+
+Create a new directory, "models", change into the models directory and create a new file , "todo.js"
+
+` sudo mkdir models && cd models && touch todo.js`
+
+
 ### Mongodb database
