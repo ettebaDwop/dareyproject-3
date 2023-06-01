@@ -174,5 +174,6 @@ To connect to the database run:
 
 ### Testing Backend Code without Frontend using RESTful API
 To test the backend we will use Postman
+![Screenshot (185)](https://github.com/ettebaDwop/dareyproject-3/assets/7973831/b6b73734-46b0-47ab-ae33-4dfe64b28816)
 
 
