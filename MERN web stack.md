@@ -138,9 +138,14 @@ To create both a schema and a model, we will install Mongoose, a Node.js package
 
 ` npm install mongoose`
 
-Create a new directory, "models", change into the models directory and create a new file , "todo.js"
+Create a new directory, "models", change into the models directory and create a new file , "todo.js" and paste the code as seen below:
 
 ` sudo mkdir models && cd models && touch todo.js`
 
+![Screenshot (246)](https://github.com/ettebaDwop/dareyproject-3/assets/7973831/c7b17fb2-4aa7-4b81-ac3f-d630555d1b2d)
+
+ Also, update the routes api.js file to look like this:
+ 
+ 
 
 ### Mongodb database
