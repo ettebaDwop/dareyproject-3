@@ -1,4 +1,11 @@
-npx create-react-app client
+# Front End Implementation
+
+Now that we have completed the desired functionality for our backend and API, it's time to develop a user interface for the web client (browser) to interact with the application through the API. To begin building the frontend of the To-Do app, we will utilize the "create-react-app" command, which allows us to quickly set up the initial structure of our application.
+To do this run the following commands:
+
+` npx create-react-app client`
+ ### Running a React App
+Install some dependencies to enable us run the React App 
 
 ```
 npm install concurrently --save-dev
