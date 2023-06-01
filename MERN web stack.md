@@ -152,7 +152,11 @@ Create a new directory, "models", change into the models directory and create a 
 ### Mongodb database
 This step involves the creation of a MongoDB Database from mLab
 
+![Screenshot (250)](https://github.com/ettebaDwop/dareyproject-3/assets/7973831/2e69f796-10ba-4dbc-9892-b2d94111ee9f)
+
 ```
+To access environmental variables we create a .env file
+
 touch .env
 vi .env
 ```
@@ -160,4 +164,5 @@ To access the database run:
 
 `DB = 'mongodb+srv://<username>:<password>@<network-address>/<dbname>?retryWrites=true&w=majority'`
 
+node index.js
 
