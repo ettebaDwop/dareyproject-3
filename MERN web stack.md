@@ -55,3 +55,21 @@ Running the command
 gives the result below.
 
 ![Screenshot (175)](https://github.com/ettebaDwop/dareyproject-3/assets/7973831/fc441bbd-ba66-4f76-8b3a-f4099462604b)
+
+### Installing expressjs
+Install Express and create a file, index.js.
+
+``` 
+npm install express
+touch index.js
+```
+Install the dotenv module
+
+`npm install dotenv`
+
+Open the index.js file
+
+`vim index.js`
+
+### Models
+### Mongodb database
