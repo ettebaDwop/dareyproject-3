@@ -15,10 +15,14 @@ npm install nodemon --save-dev
 ```
 cd client
 vi package.json
-npm run dev
 ```
+to open and run the app on the browser , run the command:
+
+` npm run dev`
+
 React app running on port 3000 on browser
 
+![Screenshot (186)](https://github.com/ettebaDwop/dareyproject-3/assets/7973831/d6caa401-633f-4752-81a2-7ed2588372f8)
 
 #### Creating your React Components
 ```
