@@ -17,6 +17,9 @@ cd client
 vi package.json
 npm run dev
 ```
+React app running on port 3000 on browser
+
+
 #### Creating your React Components
 ```
 cd client
